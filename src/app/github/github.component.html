@@ -1,21 +1,20 @@
 <div class="container">
   <br>
-  <div class="jumbotron" >
+  <div class="jumbotron">
     <h2 class="text-center">Github-Look</h2>
     <br>
     <form class="search-form">
       <div class="form-group">
         <div>
           <label for="userName"><b>User Name:</b></label>
-          <input [(ngModel)]="username" (keyup)="findProfile()" class="form-control" name="username"
-            placeholder="Enter Username" rows="2" required />
+          <input [(ngModel)]="username" (keyup)="findProfile()" class="form-control" name="username" placeholder="Enter Username" rows="2" required />
         </div>
       </div>
     </form>
 
     <div class="row">
       <div class="col-4">
-          <div *ngIf="profile">
+        <div *ngIf="profile">
           <h4>User Details</h4>
           <p>Name: {{profile.username}}</p>
           <a href="{{profile.html_url}}" target="_blank" class="btn btn-outline-success btn-sm">View profile on
@@ -33,7 +32,7 @@
       <div class="col-md-8 ">
         <h4>Repositories</h4>
         <div class="cardsall">
-          <div class="card"  style="width:20rem" *ngFor="let repo of repos">
+          <div class="card" style="width:20rem" *ngFor="let repo of repos">
             <p>Repo Name: {{repo.name}}</p>
             <p>Description: {{repo.description}}</p>
 
@@ -43,4 +42,4 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
