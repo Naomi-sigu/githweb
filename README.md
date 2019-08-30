@@ -4,9 +4,11 @@
 ## By Naomi-sigu
 
 ## Description
-This is a web app where you can search for users by their names and find their repositories and their information and contact details if posted.## Setup/Installation Requirements
+This is a web app where you can search for users by their names and find their repositories and their information and contact details if posted.
+
+## Setup/Installation Requirements
 - Open your terminal
-- initialize github, git clone https://github.com/Naomi-sigu/gitlook.git
+- initialize github, git clone https://github.com/Naomi-sigu/githweb.git
 - open folder in prefered IDE
 - open terminal
 - run "ng serve -o" to open the application in your localhost## Technologies Used
