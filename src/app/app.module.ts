@@ -11,11 +11,9 @@ import { GithubComponent } from './github/github.component';
   declarations: [
     AppComponent,
     GithubComponent,
-    // GithubFormComponent
   ],
   imports: [
     BrowserModule,
-    // AppRoutingModule,
     HttpModule,
     FormsModule
   ],
