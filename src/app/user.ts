@@ -7,7 +7,4 @@ export class User {
   followers: number;
   following: number;
   html_url: string;
-  // public link: any,
-  // public date: Dat
-
 }
